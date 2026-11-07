@@ -183,9 +183,9 @@ Add this configuration:
     "ANTHROPIC_BASE_URL": "http://localhost:8080",
     "ANTHROPIC_MODEL": "claude-opus-4-6-thinking",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-6-thinking",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-6-thinking",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-6",
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-4-6",
-    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-4-6-thinking",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-4-6",
     "ENABLE_EXPERIMENTAL_MCP_CLI": "true"
   }
 }
@@ -198,11 +198,11 @@ Or to use Gemini models:
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "test",
     "ANTHROPIC_BASE_URL": "http://localhost:8080",
-    "ANTHROPIC_MODEL": "gemini-3.1-pro-high[1m]",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "gemini-3.1-pro-high[1m]",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "gemini-3-flash[1m]",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "gemini-3-flash[1m]",
-    "CLAUDE_CODE_SUBAGENT_MODEL": "gemini-3-flash[1m]",
+    "ANTHROPIC_MODEL": "gemini-3.1-pro-low",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "gemini-3.1-pro-low",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "gemini-3.5-flash-low",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "gemini-3.5-flash-low",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "gemini-3.5-flash-low",
     "ENABLE_EXPERIMENTAL_MCP_CLI": "true"
   }
 }
@@ -339,4 +339,4 @@ MIT
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=badrisnarayanan/antigravity-claude-proxy&type=date&legend=top-left&cache-control=no-cache)](https://www.star-history.com/#badrisnarayanan/antigravity-claude-proxy&type=date&legend=top-left)
+[![Star History Chart](https://star-history.dera.page/svg?repos=badrisnarayanan/antigravity-claude-proxy&type=date&legend=top-left&cache-control=no-cache)](https://star-history.dera.page/#badrisnarayanan/antigravity-claude-proxy&type=date&legend=top-left)
